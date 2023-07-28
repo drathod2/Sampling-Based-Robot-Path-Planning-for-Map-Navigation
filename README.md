@@ -29,13 +29,20 @@ Feel free to experiment with different maps and compare the performance of the d
 After running the code, the terminal will display information about the sampling methods' performance and the collision-free paths found for the robot on the map.
 
 **Terminal Output:**
-![Terminal Output](results/terminal.png)
+![Terminal Output](results/terminal.PNG)
 
 **Sampling Methods Plot:**
-(results/Uniform.png)
-(results/Random.png)
-(results/Gaussian.png)
-(results/Bridge.png)
+**Uniform Sampling Plot:**
+![Uniform Sampling Plot](results/Uniform.png)
+
+**Random Sampling Plot:**
+![Random Sampling Plot](results/Random.png)
+
+**Gaussian Sampling Plot:**
+![Gaussian Sampling Plot](results/Gaussian.png)
+
+**Bridge Sampling Plot:**
+![Bridge Sampling Plot](results/Bridge.png)
 
 The above screenshot shows the output of the terminal, displaying the sampled points on the map, the constructed graph, the number of nodes and edges, and the collision-free paths found using each sampling method.
 
