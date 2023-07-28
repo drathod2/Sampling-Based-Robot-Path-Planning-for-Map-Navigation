@@ -20,9 +20,26 @@ To run the code and perform sampling-based robot path planning, follow these ste
 
 After running the code, you will see the map displayed with the obstacles marked. The program will then perform sampling-based robot path planning using the PRM class and the four different sampling methods: random, uniform, Gaussian, and bridge.
 
-The output will show the sampled points on the map, the constructed graph, number of nodes and edges as well as ollision-free path found using each sampling method. The visualized paths will be marked on the map.
+The output will show the sampled points on the map, the constructed graph, the number of nodes and edges as well as the collision-free path found using each sampling method. The visualized paths will be marked on the map.
 
 Feel free to experiment with different maps and compare the performance of the different sampling methods in terms of path quality and computation time.
+
+## Results
+
+After running the code, the terminal will display information about the sampling methods' performance and the collision-free paths found for the robot on the map.
+
+**Terminal Output:**
+![Terminal Output](results/terminal.png)
+
+**Sampling Methods Plot:**
+(results/Uniform.png)
+(results/Random.png)
+(results/Gaussian.png)
+(results/Bridge.png)
+
+The above screenshot shows the output of the terminal, displaying the sampled points on the map, the constructed graph, the number of nodes and edges, and the collision-free paths found using each sampling method.
+
+The plot illustrates the comparison of the four sampling methods: random, uniform, Gaussian, and bridge. Each method's visualized path on the map is marked with different colors.
 
 ## Conclusion
 
