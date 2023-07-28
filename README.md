@@ -32,6 +32,7 @@ After running the code, the terminal will display information about the sampling
 ![Terminal Output](results/terminal.PNG)
 
 **Sampling Methods Plot:**
+
 **Uniform Sampling Plot:**
 ![Uniform Sampling Plot](results/Uniform.png)
 
